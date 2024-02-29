@@ -1,24 +1,24 @@
 package object1;
 
 public class Car {
-    private String make;
+    private String color;
     private String model;
     private int year;
     private int mileage;
 
-    public Car(String make, String model, int year, int mileage) {
-        this.make = make;
+    public Car(String color, String model, int year, int mileage) {
+        this.color = color;
         this.model = model;
         this.year = year;
         this.mileage = mileage;
     }
 
-    public String getMake() {
-        return make;
+    public String getColor() {
+        return color;
     }
 
-    public void setMake(String make) {
-        this.make = make;
+    public void setColor(String color) {
+        this.color = color;
     }
 
     public String getModel() {
