@@ -22,8 +22,9 @@ public class Main {
          dog[2] = doggo2;
          dog[3] = doggo1;
 
-
-        System.out.println(dog);
+        for(int i = 0; i < dog.length;i++) {
+            System.out.println(dog[i].getName()+" "+dog[i].getBreed());
+        }
 
 
         }
