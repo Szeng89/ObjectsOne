@@ -7,6 +7,10 @@ public class Main {
         Person person1 = new Person("Shijin", 34);
         System.out.println("height of person 3 : " + person1.height + " centimeters");
 
+        Dog dog1 = new Dog("Mocha",16, "Husky");
+        System.out.println(dog1);
+
+
 
 
        Dog[] dog = new Dog[4]; //how make array
