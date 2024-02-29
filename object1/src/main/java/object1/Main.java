@@ -12,7 +12,7 @@ public class Main {
        Dog[] dog = new Dog[4]; //how make array
 
 
-        Dog doggo1 = new Dog("Mocha", 11,"hhh");
+        Dog doggo1 = new Dog("Mocha", 11,"Husky");
         Dog doggo2 = new Dog("Nala", 8, "Golden Poodle");
         Dog doggo3 = new Dog("Cookie", 4,"Shiba Inu");
         Dog doggo4 = new Dog("Nova", 5, "Labodor");
@@ -23,7 +23,7 @@ public class Main {
          dog[3] = doggo1;
 
         for(int i = 0; i < dog.length;i++) {
-            System.out.println(dog[i].getName()+" "+dog[i].getBreed());
+            System.out.println(dog[i].getName()+" "+dog[i].getBreed()+ " "+ dog[i].getAge());
         }
 
 
